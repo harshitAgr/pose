@@ -141,7 +141,7 @@ yticklabels(txt)
 
 %% derivatives
 D=diff(M);
-n=length(M);
+n=length(D);
 imagesc(corr(D),[-1,1])
 title('correlation matrix between derivatives')
 colorbar
@@ -171,7 +171,7 @@ R=diff(R);
 % correlation matrix
 figure(1)
 imagesc(corr(R),[-1,1])
-title('derivative correlation matrix (regressed with right ear)')
+title('correlation matrix (regressed with right ear)')
 colorbar
 xticks([1 2 3 4 5 6])
 xticklabels(txt)

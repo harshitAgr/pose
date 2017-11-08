@@ -5,8 +5,7 @@ clear all
 
 % Copying jSON files
 addpath('/Users/harshit/Desktop/openpose/incompV/');
-datapath= '/Users/harshit/Desktop/openpose/incompV/';
-
+datapath= '/Users/harshit/Desktop/incompV/';
     files1=dir([datapath '*keypoints.json']);
 
 % get video parameters 
